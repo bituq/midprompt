@@ -1,5 +1,5 @@
 <template>
-  <main>
-    <button class="btn btn-primary">initial setup</button>
+  <main class="w-screen h-screen bg-base-300 p-16 flex justify-center items-center">
+    <RouterView />
   </main>
 </template>
