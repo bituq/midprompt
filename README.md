@@ -1,40 +1,53 @@
-# midprompt
+# Midprompt
 
-This template should help get you started developing with Vue 3 in Vite.
+Hello there! Welcome to Midprompt. This is little tool that helps you generate Midjourney prompts by utilizing the latest and greatest GPT-4. Midjourney is a generative artificial intelligence program that generates images from natural language descriptions.
 
-## Recommended IDE Setup
+## So, what can we do?
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Set the creativity for your AI by setting the "temperature" of the model in the settings. You also can tweak several preset parameters such as:
 
-## Type Support for `.vue` Imports in TS
+- Who the depictive artist is
+- Camera settings 
+- Color palettes 
+- Artistic style (Monet? Caravaggio? You choose!)
+- Mood settings 
+- Subject matter
+- Lighting conditions
+- Year of creation 
+- Perspective 
+- Artwork title 
+- Choice of materials 
+- And loads more besides!
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+If you leave any of these blank, we'll fill in the gaps for you, just like a creative brainstorming session!
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## But what's under the hood?
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+It's built with Vue3 and TypeScript. The UI was crafted with Tailwind CSS and Daisy UI for a (hopefully) stylish, clean look.
 
-## Customize configuration
+## How can I start using it?
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+First off, you're going to need your OpenAI API key. Then launch the application, plug the API key into the index page, and you're all set to go!
 
-## Project Setup
+## Running the Application Locally 
 
-```sh
+1. To start off, you will need to clone the repo to your local machine. Run this on your command line:
+
+```bash
+git clone https://github.com/bituq/midprompt
+cd midprompt
+```
+
+2. Then, install the required dependencies:
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+3. You can now run the server on your localhost:
 
-```sh
-npm run dev
+```bash
+npm run serve
 ```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+Your app will be up and running on `http://localhost:8080`. Open it in your browser and start exploring!
